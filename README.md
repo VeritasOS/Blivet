@@ -1,2 +1,2 @@
 # Blivet
-Changed the LVM call to ignore errors because it will fail the anaconda when the installation source are in local logic volume
+blivet is the project provided by Redhat to handle the LVM operations in anaconda during ISO installation. Our NetBackup Appliance is based on Redhat OS. During the upgrade process, we will use anaconda to install new version ISO. In order to fit our product requirement, we changed the LVM call to ignore errors because it will fail the anaconda when the installation source are in local logic volume.
